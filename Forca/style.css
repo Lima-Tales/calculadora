@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #palavra {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+  }
+  
+  .input-area input {
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .input-area button {
+    padding: 8px 12px;
+    margin-left: 10px;
+  }
+  
+  #mensagem {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
